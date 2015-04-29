@@ -9,3 +9,33 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fourteen-child
 */
+
+.site {
+	max-width: 100%;
+}
+
+.site-header {
+	max-width: 100%;
+}
+
+/* This is the header image space */
+#headspace {
+	width: 	100%;
+	height: 194px;
+	background-color: green;
+}
+
+/* This is the nav bar */
+#header-main {
+	width: 	1000px;
+	height: 34px;
+}
+
+/* This is the sidebar that defaults on the left side of the page */
+#secondary {
+	display: none;
+}
+
+.home {
+	width: 100%;
+}
