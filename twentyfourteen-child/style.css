@@ -10,6 +10,10 @@
  Text Domain:  twenty-fourteen-child
 */
 
+#page.hfeed.site::before {
+	background-color: grey;
+}
+
 .site {
 	max-width: 100%;
 }
@@ -20,15 +24,21 @@
 
 /* This is the header image space */
 #headspace {
-	width: 	100%;
+	width: 	72.88629738%; /* 1000/1372 */
 	height: 194px;
-	background-color: green;
+	margin: auto;
 }
 
 /* This is the nav bar */
-#header-main {
-	width: 	1000px;
+div .header-main {
+	width: 	72.88629738%; /* 1000/1372 */
 	height: 34px;
+	margin: auto;
+}
+
+.site-main {
+	width: 	72.88629738%;
+	margin: auto;
 }
 
 /* This is the sidebar that defaults on the left side of the page */
